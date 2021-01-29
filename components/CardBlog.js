@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 function CardBlog() {
     return (
-        <div className=" p-24 py-24 bg-white dark:bg-gray-700 ">
-            <div className="font-semibold uppercase mt-10 mb-4  text-gray-700 dark:text-gray-100">
+        <div className=" p-2 lg:p-24 lg:py-24 bg-white dark:bg-gray-700 ">
+            <div className="font-semibold uppercase   text-gray-700 dark:text-gray-100">
                 <div className="pl-4">
                     Learn the Basics
             </div>
             </div>
-            <div className="flex flex-wrap -mx-2 overflow-hidden">
+            <div className="flex flex-wrap  overflow-hidden">
                 <Link href="tutorialreact">
                     <div div className="my-2 py-4 px-5 w-full overflow-hidden lg:w-1/3 transform scale-10 hover:scale-105 transsition-all duration-300" >
                         <div className="bg-white rounded-lg overflow-hidden shadow-xl">
@@ -24,7 +24,7 @@ function CardBlog() {
                                     <div className="flex items-center justify-between">
                                         <span className="text-xxs uppercase text-blackfont-medium">19 Episodes</span>
                                         <span>
-                                            <a href="/skills/laravel" className="shadow-offset-blue text-black font-medium text-xxs uppercase mr-2">
+                                            <a href="/skills/laravel" className="shadow-offset-blue text-black font-medium text-xxs uppercase   ">
                                                 React Js
                                         </a>
                                         </span>

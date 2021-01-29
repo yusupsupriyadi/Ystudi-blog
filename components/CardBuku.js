@@ -3,26 +3,33 @@ import Link from 'next/link';
 
 function CardBuku() {
     return (
-        
-        <div>
+
+        <div className="p-8 bg-gray-100 dark:bg-gray-900">
             <Link href="tutorialreact">
-                <section className="bg-white dark:bg-gray-900 lg:py-20 lg:flex lg:justify-center">
-                    <div className="bg-gray-100 dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg transform -rotate-3 hover:rotate-0 transsition-all duration-300 shadow-xl">
-                        <div className="lg:w-1/2">
-                            <div className="h-64 bg-cover lg:rounded-lg lg:h-full" style={{ backgroundImage: 'url("https://www.webrexstudio.com/wp-content/uploads/2019/05/react-js-image.png")' }} />
-                        </div>
-                        <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
-                            <h2 className="text-2xl text-gray-800 dark:text-white font-bold md:text-3xl"> Belajar <span className="text-indigo-600 dark:text-indigo-400"> React js</span></h2>
-                            <p className="mt-4 text-gray-600 dark:text-gray-400">Mau menjadi Front end Web Developer? ,Mari kita belajar react js dari dasar agar kamu bisa menjadi Front end developer yang handal</p>
-                            <div className="mt-8">
-                                <a href="#" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800">Start Now</a>
-                            </div>
-                        </div>
+            <div className="lg:pt-24 lg:px-24">
+            <div className="bg-white transform -rotate-6 hover:rotate-0 transsition-all duration-300 shadow-xl hover:shadow  rounded-xl overflow-hidden">
+            <section className="text-gray-700 body-font">
+            <div className="container flex flex-col items-center p-2 md:flex-row">
+                <div className="mb-10 lg:max-w-lg w-full md:w-1/2 md:mb-0">
+                            <img className="object-cover object-center rounded" alt="hero" src="https://www.webrexstudio.com/wp-content/uploads/2019/05/react-js-image.png" />
+                </div>
+                <div className="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left">
+                    <h1 className="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-2xl title-font">
+                        Belajar React Js</h1>
+                    <p className="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">React js banyak di gunakan untuk seorang frontend <br/> jadi kamu harus pelajari ini</p>
+                    <div className="flex justify-center">
+                        <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
+                            Action
+              </button>
                     </div>
-                </section>
+                </div>
+            </div>
+        </section>
+            </div>
+                </div>
             </Link>
-        </div>
-            
+            </div>
+
             
         
     )

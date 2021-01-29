@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 function Banner2() {
     return (
-        <div>
-        <section className="text-gray-700 bg-gray-100 dark:bg-gray-200  body-font">
-            <div className="container px-8 py-20 mx-auto lg:px-4">
+        
+        <div className="text-gray-700 bg-gray-100 dark:bg-gray-200  body-font">
+            <div className="px-8 py-20 mx-auto lg:px-4">
                 <div className="flex flex-col w-full mb-12 text-left lg:text-center">
                     <h2 className="mb-1 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font">tidak ada kesuksesan dalam diam</h2>
                     <h1 className="mb-6 text-2xl font-semibold tracking-tighter text-blue-800 sm:text-5xl title-font">
@@ -25,7 +25,7 @@ keterampilan Anda ke tingkat berikutnya, melalui seri-seri yang ada disini seper
                     
                     
                 </div>
-                </div></section></div>
+                </div></div>
     )
 }
 

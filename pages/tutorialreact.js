@@ -7,8 +7,7 @@ function tutorialreact() {
     return (
         <div>
             <Navbar2 />
-            <HeaderTutorial/>
-            <section className="font-sans container m-auto flex flex-col py-8 px-40">
+            <section className="font-sans container m-auto flex flex-col py-8 px-4">
                 <h1 className="my-6 max-w-full text-3xl md:text-4xl lg:text-5xl font-medium">INSTALASI REACT JS</h1>
 
                 <p className="my-4 max-w-full leading-loose text-left"><h1 className="my-2 max-w-full text-3xl md:text-4xl lg:text-2xl font-medium">1. Install nodeJS</h1>

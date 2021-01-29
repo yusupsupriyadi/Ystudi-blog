@@ -2,8 +2,8 @@ import React from 'react'
 
 function Price() {
     return (
-        <section class="text-gray-700 dark:bg-gray-900 body-font pb-16">
-            <div class="container px-8  mx-auto lg:px-4">
+        <section class="text-gray-700 dark:bg-gray-900 body-font lg:pb-16">
+            <div class="container px-2 lg:px-8  mx-auto">
                 <div class="flex flex-wrap text-center">
                     <div class="px-2 py-6 mx-auto lg:w-1/4 md:w-full">
                         <div class="p-4 border rounded-xl">

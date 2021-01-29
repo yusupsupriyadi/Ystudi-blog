@@ -26,9 +26,9 @@ function Navbar2() {
 
     return (
 
-        <div>
+        
             <nav className="bg-white dark:bg-gray-800 shadow">
-                <div className="container mx-auto px-6 py-3">
+                <div className="container mx-auto px-6 ">
                     <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                         <div className="flex justify-between items-center">
                             <div className="flex items-center">
@@ -83,7 +83,7 @@ function Navbar2() {
                     </div>
                 </div>
             </nav>
-        </div>
+        
 
 
     )
